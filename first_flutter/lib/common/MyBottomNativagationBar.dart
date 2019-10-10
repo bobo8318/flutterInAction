@@ -7,7 +7,7 @@ class MyBottomNagation extends StatefulWidget {
 class _nameState extends State<MyBottomNagation> {
   
   final List<BottomNavigationBarItem> itemlist = [
-    BottomNavigationBarItem(icon: Icon(),title: Text('主页')),
+    BottomNavigationBarItem(icon: Icon(Icons.home,color:Colors.blue), title: Text('主页',style: TextStyle(color: Colors.blue))),
     BottomNavigationBarItem(icon: Icon(),title: Text('个人')),
     BottomNavigationBarItem(icon: Icon(),title: Text('商品')),
   ];
