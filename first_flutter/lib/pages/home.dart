@@ -6,19 +6,9 @@ class name extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    getNetContent();
     return Scaffold(
       body: Text("qwe"),
     );
   }
 
-  void getNetContent() async{
-    try{
-       Response response;
-       response = await Dio().get("");
-       return print(response);
-    }catch(e){
-        return print(e);
-    }
-  }
 }
